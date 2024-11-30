@@ -102,7 +102,7 @@ local function set_groups()
 		Constant = { fg = colors.white },
 		String = { fg = colors.green, italic = config.italics.strings or false },
 		Character = { fg = colors.green },
-		Number = { fg = colors.secondary, bold = true },
+		Number = { fg = colors.orangeLight},
 		Boolean = { fg = colors.greenLight },
 		Float = { link = "Number" },
 
@@ -246,7 +246,7 @@ local function set_groups()
 		["@variable"] = { fg = colors.white, italic = config.italics.variables or false },
 		["@variable.builtin"] = { fg = colors.white, italic = config.italics.variables or false },
 		["@type"] = { fg = colors.orange },
-		["@type.definition"] = { fg = colors.fg },
+		["@type.definition"] = { fg = colors.orange },
 		["@type.builtin"] = { fg = colors.orange },
 		["@type.qualifier"] = { fg = colors.orange },
 		["@keyword"] = { link = "Keyword" },
