@@ -8,8 +8,8 @@ local colors = {
 	bg = "#101010",
 	bgDark = "#161616",
 	bgDarker = "#232323",
-	bgFloat = "#282828",
-	bgOption = "#343434",
+	bgFloat = "#232323",
+	bgOption = "#303030",
 
 	fg = mix("#FFFFFF", "#000000", math.abs(0.80)),
 	fgAlt = "#FEFEFE",
